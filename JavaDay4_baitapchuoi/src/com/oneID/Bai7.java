@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Bai7 {
     static void tamgiac(){
         System.out.println("\n Bài 7: Nhập vào 3 cạnh, xác định đó có phải 3 cạnh tam giác, tam giac vuông,cân,đều");
-        System.out.println("\n Nhập vào 3 số: ");
+        System.out.print("Nhập vào 3 số: \t");
         Scanner sc = new Scanner(System.in);
         int a= sc.nextInt();
         int b=sc.nextInt();

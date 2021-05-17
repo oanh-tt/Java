@@ -32,6 +32,18 @@ public class Main {
                 case 5:
                     Bai9.chuanhoachuoi();
                     break;
+                case 6:
+                    Bai10.tongcacchusocua1so();
+                    break;
+                case 7:
+                    Bai12.phuongtrinhbacnhat();
+                    break;
+                case 8:
+                    Bai13.tongsochiahet3();
+                    break;
+                case 9:
+                    Bai14.kiemtranguyenamnguyenduong();
+                    break;
             }
         }
 
@@ -44,6 +56,10 @@ public class Main {
         System.out.println("3 - Bài 6: In bảng cửu chương");
         System.out.println("4 - Bài 7: Nhập vào 3 cạnh, xác định đó có phải 3 cạnh tam giác, tam giac vuông,cân,đều");
         System.out.println("5 - Bài 9: Chuẩn hóa chuỗi");
+        System.out.println("6 - Bài 10: Tính tổng các chữ số trong 1 số bất kỳ");
+        System.out.println("7 - Bài 12: Viết chương trình giải phương trình bậc nhất");
+        System.out.println("8 - Bài 13: Tính tổng các số từ 0-n mà chia hết cho 3");
+        System.out.println("9 - Bài 14: Kiểm tra 1 số bất kỳ là số nguyên âm hay nguyên dương");
         System.out.println("0 - Thoát chương trình");
         System.out.print("Lựa chọn của bạn là: ");
 

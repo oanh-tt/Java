@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Bai9 {
     static void chuanhoachuoi(){
         System.out.println("\nBài 9: Chuẩn hóa chuỗi");
-        System.out.println("Nhập vào 1 chuỗi: ");
+        System.out.print("Nhập vào 1 chuỗi: \t");
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         str=str.trim();
