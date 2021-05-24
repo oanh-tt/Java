@@ -25,7 +25,7 @@ public class Mang1chieu {
         Scanner sc=new Scanner(System.in);
         System.out.print("\nNhập vị trí muốn sửa: ");
         int k=sc.nextInt();
-        if (k<arr.length){
+        if (k>0&&k<arr.length){
             System.out.printf("Nhập giá trị muốn sửa tại vị trí %d: ",k);
             arr[k]= sc.nextInt();
             System.out.println("Mảng sau khi sửa: ");
