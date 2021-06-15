@@ -3,7 +3,7 @@ public class Main {
         BaiTapChuoi.demInhoa();
         BaiTapChuoi.vietInhoa();
         BaiTapChuoi.convertString();
-        //inputPass.checkFormatPass();
+        inputPass.checkFormatPass();
         ngaythang.inNgaythang();
     }
 }
