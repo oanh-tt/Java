@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public abstract class Baove extends Nhanvien{
+public class Baove extends Person{
     public Baove(String firstName, String lastName, LocalDate birthday) {
         super(firstName, lastName, birthday);
     }

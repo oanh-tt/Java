@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public abstract class Laocong extends Nhanvien {
+public class Laocong extends Person {
     public Laocong(String firstName, String lastName, LocalDate birthday) {
         super(firstName, lastName, birthday);
     }

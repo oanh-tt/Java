@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public abstract class Tuyensinh extends Nhanvien{
+public class Tuyensinh extends Person{
     public Tuyensinh(String firstName, String lastName, LocalDate birthday) {
         super(firstName, lastName, birthday);
     }

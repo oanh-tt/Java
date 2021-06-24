@@ -1,10 +1,9 @@
 import java.time.LocalDate;
 
-public abstract class Giangvien extends Person{
-    public Giangvien(String firstName, String lastName, LocalDate birthday) {
-        super(firstName, lastName, birthday);
-    }
-    int sotiet;
+public interface Giangvien {
+    int soTiet();
+    void giangDay();
+    void quanLySinhVien();
+    void soanGiaoAn();
 
-    abstract void thoiGian();
 }

@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public abstract class Ketoan extends Nhanvien{
+public class Ketoan extends Person{
     public Ketoan(String firstName, String lastName, LocalDate birthday) {
         super(firstName, lastName, birthday);
     }
