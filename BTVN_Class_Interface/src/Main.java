@@ -10,29 +10,26 @@ public class Main {
     public static void inputGiangVien() {
         Person person = new Person("Trần", "Oanh", LocalDate.of(1993,6,5));
         System.out.println(person);
-        Fulltime lect = new Fulltime("Nguyễn", "Hà", LocalDate.of(1988,10,5));
-        System.out.println("Giảng viên: "+lect);
-        lect.soTiet();
-        lect.giangDay();
-        lect.soanGiaoAn();
-        lect.quanLySinhVien();
-        //  lect.work();
+        Fulltime full = new Fulltime("Nguyễn", "Hà", LocalDate.of(1988,10,5));
+        System.out.println("Giảng viên: "+full);
+        full.soTiet();
+        full.giangDay();
+        full.soanGiaoAn();
+        full.quanLySinhVien();
         System.out.println();
-        Congtacvien coll = new Congtacvien("Nguyễn", "Quỳnh", LocalDate.of(1994,10,17));
-        System.out.println("Cộng tác viên: "+coll );
-        //   coll.work();
-        coll.soTiet();
-        coll.soanGiaoAn();
-        coll.giangDay();
-        coll.quanLySinhVien();
+        Congtacvien ctv = new Congtacvien("Nguyễn", "Quỳnh", LocalDate.of(1994,10,17));
+        System.out.println("Cộng tác viên: "+ctv );
+        ctv.soTiet();
+        ctv.soanGiaoAn();
+        ctv.giangDay();
+        ctv.quanLySinhVien();
 
         System.out.println();
-        Thinhgiang occ = new Thinhgiang("Lê", "Hà", LocalDate.of(1988,10,8));
-        System.out.println("Thỉnh giảng: "+occ);
-        //   occ.work();
-        occ.soTiet();
-        occ.giangDay();
-        occ.soanGiaoAn();
+        Thinhgiang tg = new Thinhgiang("Lê", "Hà", LocalDate.of(1988,10,8));
+        System.out.println("Thỉnh giảng: "+tg);
+        tg.soTiet();
+        tg.giangDay();
+        tg.soanGiaoAn();
     }
     public static void inputNhanVien(){
         System.out.println();
