@@ -45,13 +45,6 @@ public class PersonRepository {
     return people;
   }
 
-  //2.1 Nhóm những người trong cùng thành phố lại
-  public Map<String, List<Person>> groupPeopleByCity() {
-   // https://www.baeldung.com/java-groupingby-collector
-    return people
-    .stream()
-    .collect(Collectors.groupingBy(Person::getCity));
-  }
  //1.1 Trả về danh sách 'developer' ở các thành phố Hanoi, Saigon, Shanghai
   public Map<String, List<Person>> groupPeopleDeveloperInCity() {
     return people
@@ -108,7 +101,13 @@ public Double avgSalaryPeopleAbove30() {
     .collect(Collectors.groupingBy(Person::getCity, Collectors.counting()));
     
   }
-
+  //2.1 Nhóm những người trong cùng thành phố lại
+  public Map<String, List<Person>> groupPeopleByCity() {
+    // https://www.baeldung.com/java-groupingby-collector
+    return people
+            .stream()
+            .collect(Collectors.groupingBy(Person::getCity));
+  }
   //2.2 Nhóm các nghề nghiệp và đếm số người làm
   public Map<String, Long> groupByJobThenCount() {
     return people
